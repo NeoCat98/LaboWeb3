@@ -1,0 +1,39 @@
+table{
+    margin: auto;
+}
+
+.blanco{
+    background: white;
+    width: 80px;
+    height: 80px;
+}
+
+.negro{
+    background: black;
+    width: 80px;
+    height: 80px;
+}
+
+td>p{
+    visibility: hidden;
+}
+
+.negro:hover{
+    background: rgba(255, 0, 0, 0.5);
+}
+.blanco:hover{
+    background: rgba(255, 0, 0, 0.5);
+}
+.negro:hover p{
+    visibility: visible;
+}
+.blanco:hover p{
+    visibility: visible;
+}
+
+h1 {
+    font-size: 3rem;
+}
+footer{
+    margin: 1em;
+}
